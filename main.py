@@ -7,8 +7,10 @@ Output-> 256
 
 lst = [179,256,9]
 ln = len(lst)
-index = 0
+max = 0
 for i in range(0,ln):
   e = lst[i]
-  index = index + 1
+  if (e>max):
+    max = e
+print(max)
   
